@@ -9,8 +9,6 @@ if(!file.exists("03a_figures")){dir.create("03a_figures")}
 
 #Load packages
 library(tidyverse)
-library(ggh4x) #To customize plots
-library(trend) #for Sen's slope
 
 #Load data
 cover <- read_csv("01b_processed_data/plant_species_cover.csv")
